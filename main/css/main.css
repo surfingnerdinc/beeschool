@@ -162,6 +162,8 @@ nav span {
 }
 nav li {
     opacity: 1;
+    text-align: center;
+    margin: auto;
 }
 
 .bottom-menu {
@@ -180,6 +182,8 @@ nav li {
 
 .social-media {
     color: white;
+    text-align: center;
+    letter-spacing: 15px;
 }
 
 
