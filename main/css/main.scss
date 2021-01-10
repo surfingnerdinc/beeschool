@@ -28,12 +28,6 @@ body, html a{
     background-size: 1150px 1150px;
 }
 
-.hero {
-    font-family: 'Montserrat';
-    padding-top: 10em;
-    padding-left: 15em;
-    padding-bottom: 10em;
-}
 
 header {
     padding: 2em;
@@ -45,9 +39,9 @@ header .menu-btn {
 
 .hero {
     font-family: 'Montserrat';
-    padding-top: 7em;
+    padding-top: 3em;
     padding-left: 12em;
-    padding-bottom: 8em;
+    padding-bottom: 10em;
 }
 
 .hero h1 {
@@ -158,6 +152,7 @@ nav {
     float: right;
     cursor: pointer;
     opacity: 1;
+    animation: show-x 1s 1s forwards;
 }
 
 nav ul {
@@ -171,21 +166,39 @@ nav ul {
 nav a{
     color: white;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 1.75em;
 }
 
 nav span {
     color: white;
     display: block;
     margin-top: 20px;
-    font-size: 1em;
+    font-size: 0.75em;
 }
 nav li {
-    opacity: 1;
+    opacity: 0;
     text-align: center;
     margin: auto;
     animation: slide-menu 1s ease-in-out;
 }
+
+nav li:nth-of-type(1) {
+    transition-delay: 1s;
+    animation: wjazd 0.7s forwards 1s ease;
+}
+nav li:nth-of-type(2) {
+    transition-delay: 1s;
+    animation: wjazd 0.7s forwards 1s ease;
+}
+nav li:nth-of-type(3) {
+    transition-delay: 1s;
+    animation: wjazd 0.7s forwards 1s ease;
+}
+nav li:nth-of-type(4) {
+    transition-delay: 1s;
+    animation: wjazd 0.7s forwards 1s ease;
+}
+
 
 .bottom-menu {
     padding-top: 15em;
@@ -220,8 +233,6 @@ nav li {
     z-index: 2;
 }
 
-
-
 @keyframes slide-menu { 
     from {
         transform: scaleX(0);
@@ -238,10 +249,20 @@ nav li {
         transform: scaleX(0);
     }
 }
-/* do poprawy */
-@keyframes menu-item-anim {
-    form {
+
+@keyframes wjazd {
+    from {
         transform: translateY(60%);
+        opacity: 0;
+    } to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes show-x {
+    from {
+        transform: translateY(60);
         opacity: 0;
     } to {
         transform: translateY(0);
