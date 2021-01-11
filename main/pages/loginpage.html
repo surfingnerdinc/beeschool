@@ -8,12 +8,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     </head>
 
-    <body>
+    <body  class="hero-img">
         <section>
             <nav id="overlay">
                 <img src="../../assets/exit.svg" class="close-btn" id="close-menu">
                 <ul>
-                    <li><a href="#">Sign in</a><span>Just log in and enjoy!</span></li>
+                    <li><a href="http://localhost/beeschool/main/pages/loginpage.html">Sign in</a><span>Just log in and enjoy!</span></li>
                     <li><a href="#">Sign up</a><span>Create account to use app!</span></li>
                     <li><a href="#">Contact</a><span>Any question? feel free to contact me!</span></li>
                     <li><a href="#">About me</a><span>Few words about me!</span></li>
@@ -30,12 +30,28 @@
             </nav>
         </section>
         <header>
-            <a href="#"><img src="../../assets/logo.png" alt="surfing nerd inc" class="logo"></a>
+            <a href="#"><img src="../../assets/own-logo.svg" alt="surfing nerd inc" class="logo"></a>
             <img src="../../assets/menu.svg" class="menu-btn" id="open-menu">
         </header>
         <section>
-        <form id="loginform" method="POST" action="login.php">
-            <h1>There will be any login form to log in our app</h1>
+        <form class="loginform" method="POST" action="login.php">
+            <fieldset> 
+                <legend>Fill the gaps to log in!</legend>
+                <div>
+                    <label>Username or mail</label><br>
+                    <input type="text" id="username" name="username" placeholder="User name..." />
+                </div>
+                <div>
+                    <label>Password</label><br>
+                    <input type="password" id="userpassword" name="password" placeholder="Password..." />
+                </div>
+                <div>
+                    <div id="log_err_msg"></div><br>
+                    <input type="submit" class="submit-btn" value="Login!" />
+                </div>
+            </fieldset>
+
+
         </section>
         </form>
         <script type="text/javascript" src="../scripts/main.js"></script>

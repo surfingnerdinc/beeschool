@@ -18,8 +18,8 @@ html a {
 }
 
 .logo {
-    width: 250px;
-    height: 100px;
+    width: 325px;
+    height: 101px;
 }
 
 header {
@@ -170,4 +170,80 @@ nav li:nth-of-type(4) {
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+
+/* formsy do logowania */ 
+
+.loginform {
+    text-align: center;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    width: 40%;
+}
+ .loginform h3 {
+     font-size: 28px;
+     font-weight: bold; 
+ }
+ 
+ .loginform legend {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+ }
+
+ .loginform label {
+     font-size: 20px;
+     font-weight: 150;
+     display: none;
+ }
+
+ .loginform input {
+     text-align: center;
+     padding: 10px;
+     font-size: 24px;
+     font-weight: 100;
+     border: none;
+     background: none;
+     border-bottom: 2px solid black;
+     width: 60%;
+     border-radius: 10px;
+ }
+
+ .loginform input:focus {
+    outline: none;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+ }
+
+ .loginform input:hover {
+    outline: none;
+    box-shadow: 0 5px 10px -4px rgba(0, 0, 0, 0.3);
+ }
+
+
+ .loginform .submit-btn {
+   z-index: 1;
+   text-transform: uppercase;
+   font-size: 20px;
+   margin-top: 10px;
+   border-bottom: 0;
+   border: 2px solid black;
+   border-radius: 25px;
+   color: white;
+ }
+
+ .loginform .submit-btn:hover {
+    outline: none;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+ }
+
+
+.hero-img {
+    background-image: url("nasa-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: -200px -350px;
+    background-size: 1920px 1150px;
 }
