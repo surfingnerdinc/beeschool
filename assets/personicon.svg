@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="186.416" height="192.208" viewBox="0 0 186.416 192.208">
+  <defs>
+    <filter id="Rectangle_1" x="0" y="0" width="186.416" height="186.416" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1309.792 -210.792)">
+    <g transform="matrix(1, 0, 0, 1, 1309.79, 210.79)" filter="url(#Rectangle_1)">
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="136" height="136" transform="translate(25.21 22.21)" fill="rgba(156,99,234,0.84)"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(1322 251)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="136" height="136" stroke="none"/>
+      <rect x="0.5" y="0.5" width="135" height="135" fill="none"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(1310 267)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="136" height="136" stroke="none"/>
+      <rect x="0.5" y="0.5" width="135" height="135" fill="none"/>
+    </g>
+    <path id="Icon_material-person" data-name="Icon material-person" d="M38.926,38.926A16.463,16.463,0,1,0,22.463,22.463,16.459,16.459,0,0,0,38.926,38.926Zm0,8.232C27.937,47.158,6,52.673,6,63.621v8.232H71.853V63.621C71.853,52.673,49.916,47.158,38.926,47.158Z" transform="translate(1348 283)"/>
+  </g>
+</svg>

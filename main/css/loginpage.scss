@@ -22,13 +22,6 @@ html a {
     height: 100px;
 }
 
-.hero-img {
-    background-image: url("comp.svg");
-    background-repeat: no-repeat;
-    background-position: 700px -250px;
-    background-size: 1150px 1150px;
-}
-
 header {
     padding: 2em;
 }
@@ -36,94 +29,6 @@ header {
 header .menu-btn {
     float: right;
     cursor: pointer;
-}
-
-.hero {
-    font-family: "Montserrat";
-    padding-top: 3em;
-    padding-left: 12em;
-    padding-bottom: 10em;
-}
-
-.hero h1 {
-    font-size: 64px;
-    font-weight: bold;
-    color: #4a4545;
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-.hero h3 {
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: left;
-    color: #5f3ceb;
-    letter-spacing: 1px;
-}
-
-.hero h5 {
-    letter-spacing: 2px;
-    font-weight: 300;
-    font-size: 13px;
-    color: #6c6c6c;
-    text-align: left;
-    padding-bottom: 3em;
-}
-.blueButton {
-    display: inline-block;
-    font-size: 1em;
-    font-weight: 500;
-    color: #000000;
-    position: relative;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin-top: 15px;
-    text-decoration: none;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-    border-radius: 20px;
-    background: none;
-    z-index: 1;
-}
-
-.blueButton::before {
-    content: " ";
-    right: 9px;
-    top: 4px;
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    background-color: #13f800;
-    border-radius: 20px;
-    z-index: -1;
-    transition: transform 0.15s ease-in-out 0s;
-}
-.blueButton::after {
-    content: " ";
-    right: 0px;
-    top: 0px;
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    border-color: #000;
-    border-radius: 20px;
-    opacity: 1;
-    border-image: initial;
-    border-style: solid;
-    border-width: 1px;
-    transition: transform 0.15s ease-in-out 0s;
-}
-
-.blueButton:hover {
-    top: 0px;
-    left: 18px;
-}
-.blueButton:hover::after {
-    top: 0px;
-    left: -18px;
 }
 
 .menu-btn {
@@ -265,59 +170,4 @@ nav li:nth-of-type(4) {
         transform: translateY(0);
         opacity: 1;
     }
-}
-
-// For teacher section
-
-.teach-container {
-    margin: 4em;
-    grid-gap: 4em;
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-.icon {
-    width: 70px;
-}
-.teach-container image {
-    width: 400px;
-    float: right;
-
-}
-.teach-container h1 {
-    white-space: nowrap;
-    text-align: left;
-    font-weight: bold;
-    font-size: 52px;
-}
-.teach-container h3 {
-    font-weight: 500;
-    font-size: 18px;
-    color: rgba(74, 69, 69, 1);
-}
-
-// Mobile section
-.mobile {
-    padding-left: 10em;
-    padding: 50px;
-}
-
-.mobile h2 {
-    font-family: "Montserrat";
-    font-size: 40px;
-    color: #4a4545;
-}
-
-.mobile h3 {
-    color: #6c6c6c;
-    font-size: 28px;
-}
-.desc {
-    float: right;
-}
-
-.mob {
-    float: left;
-    width: 400px;
-    height: 250px;
 }

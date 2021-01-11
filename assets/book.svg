@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="189.208" height="191.208" viewBox="0 0 189.208 191.208">
+  <defs>
+    <filter id="Rectangle_1" x="0" y="0" width="186.416" height="186.416" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1256.792 -211.792)">
+    <g transform="matrix(1, 0, 0, 1, 1256.79, 211.79)" filter="url(#Rectangle_1)">
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="136" height="136" transform="translate(25.21 22.21)" fill="#2a73e8"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(1295 252)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="136" height="136" stroke="none"/>
+      <rect x="0.5" y="0.5" width="135" height="135" fill="none"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(1310 267)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="136" height="136" stroke="none"/>
+      <rect x="0.5" y="0.5" width="135" height="135" fill="none"/>
+    </g>
+    <path id="Icon_awesome-book-open" data-name="Icon awesome-book-open" d="M70.576,2.257c-7.133.4-21.31,1.878-30.062,7.236a2,2,0,0,0-.946,1.714V58.568a2.06,2.06,0,0,0,3.03,1.756c9-4.532,22.027-5.769,28.466-6.107a4.06,4.06,0,0,0,3.907-3.991V6.253a4.08,4.08,0,0,0-4.4-4ZM34.457,9.492C25.707,4.135,11.53,2.663,4.4,2.257a4.082,4.082,0,0,0-4.4,4V50.227a4.058,4.058,0,0,0,3.907,3.991c6.442.338,19.471,1.576,28.475,6.111A2.054,2.054,0,0,0,35.4,58.577V11.183A1.96,1.96,0,0,0,34.457,9.492Z" transform="translate(1326 288.75)"/>
+  </g>
+</svg>

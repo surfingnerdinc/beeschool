@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="189.208" height="191.208" viewBox="0 0 189.208 191.208">
+  <defs>
+    <filter id="Rectangle_1" x="0" y="0" width="186.416" height="186.416" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1213.792 -177.792)">
+    <g transform="matrix(1, 0, 0, 1, 1213.79, 177.79)" filter="url(#Rectangle_1)">
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="136" height="136" transform="translate(25.21 22.21)" fill="#4aff3b"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(1252 218)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="136" height="136" stroke="none"/>
+      <rect x="0.5" y="0.5" width="135" height="135" fill="none"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(1267 233)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="136" height="136" stroke="none"/>
+      <rect x="0.5" y="0.5" width="135" height="135" fill="none"/>
+    </g>
+    <path id="Icon_material-phone-iphone" data-name="Icon material-phone-iphone" d="M43.046,1.5H15.963A8.484,8.484,0,0,0,7.5,10V67.78a8.484,8.484,0,0,0,8.463,8.5H43.046a8.484,8.484,0,0,0,8.463-8.5V10A8.484,8.484,0,0,0,43.046,1.5ZM29.5,72.878a5.1,5.1,0,1,1,5.078-5.1A5.081,5.081,0,0,1,29.5,72.878Zm15.234-13.6H14.271V11.7H44.739Z" transform="translate(1290.5 259.5)"/>
+  </g>
+</svg>
