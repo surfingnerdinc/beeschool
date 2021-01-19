@@ -3,7 +3,7 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 body,
@@ -18,8 +18,8 @@ html a {
 }
 
 .logo {
-    width: 300px;
-    height: 120px;
+    width: 250px;
+    height: 100px;
 }
 
 .hero-img {
@@ -267,11 +267,156 @@ nav li:nth-of-type(4) {
     }
 }
 
-.paczka{ 
-    margin: 50px;
-    text-align: center;
+.paczka {
+    padding: 15px;
+    margin-top: 400px;
+    display: grid;
+    grid-gap: 3em;
+    justify-content: center;
+    align-items: center;
 }
+
+.paczkadwa {
+    margin-top: 50px;
+    padding: 15px;
+    display: grid;
+    grid-gap: 3em;
+    justify-content: left;
+    align-items: center;
+}
+
+.paczkadwa h1 {
+    padding: 10px;
+    white-space: nowrap;
+    text-align: right;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.paczkadwa p {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba($color: 11, 240, 161, $alpha: 1);
+    margin: 2px;
+}
+
+.secicon {
+    width: 70px;
+}
+
+.image {
+    padding: 10px;
+    width: 500px;
+}
+
+.paczka h1 {
+    padding: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+    font-size: 52px;
+}
+.paczka p {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba($color: 74, 69, 69, $alpha: 1);
+    margin: 2px;
+}
+
+
+.design-container {
+    grid-column: 2 / span-1;
+    width: 100%;
+    border-radius: 20px;
+    background: #f5f2fd;
+    display: flex;
+}
+
+//Incommon parts
 
 .heheszki {
     background-color: gray;
+}
+
+.nazwasekcji {
+    writing-mode: vertical-lr;
+    grid-column: 3 / span-1;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+//mobile container
+.mobile-container {
+    grid-column: 2 / span-1;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+}
+
+.mobile-container {
+    grid-column: 2 / span-1;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    background: #f7fdf2;
+}
+
+.purpleButton {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 15px 55px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 20px;
+    background: none;
+}
+.purpleButton:hover {
+    top: 0px;
+    left: 16px;
+}
+.purpleButton:hover:after {
+    top: 0px;
+    left: -16px;
+}
+.purpleButton::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    right: 8px;
+    background-color: rgba(95, 60, 235, 1);
+    border-radius: 20px;
+    z-index: -1;
+    transition: transform 0.15s ease-out 0s;
+}
+
+.purpleButton::after {
+    content: "";
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border-image: initial;
+    transition: transform 0.15s ease-out 0s;
 }
