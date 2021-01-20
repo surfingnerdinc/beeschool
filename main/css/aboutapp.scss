@@ -18,8 +18,8 @@ html a {
 }
 
 .logo {
-    width: 250px;
-    height: 100px;
+    width: 300px;
+    height: 120px;
 }
 
 .hero-img {
@@ -270,14 +270,21 @@ nav li:nth-of-type(4) {
 .paczka {
     padding: 15px;
     margin-top: 400px;
+    margin-bottom: 150px;
     display: grid;
     grid-gap: 3em;
     justify-content: center;
     align-items: center;
 }
+.paczkatrzy {
+    padding: 15px;
+    display: grid;
+    grid-gap: 3em;
+}
 
 .paczkadwa {
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     padding: 15px;
     display: grid;
     grid-gap: 3em;
@@ -324,7 +331,6 @@ nav li:nth-of-type(4) {
     color: rgba($color: 74, 69, 69, $alpha: 1);
     margin: 2px;
 }
-
 
 .design-container {
     grid-column: 2 / span-1;
@@ -420,3 +426,85 @@ nav li:nth-of-type(4) {
     border-image: initial;
     transition: transform 0.15s ease-out 0s;
 }
+
+.paczkatrzy h1 {
+    padding: 10px;
+    white-space: nowrap;
+    text-align: right;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.paczkatrzy h3 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba($color: 11, 240, 161, $alpha: 1);
+    margin: 2px;
+}
+
+.parent-container {
+    grid-column: 2 / span-1;
+    width:75%;
+    border-radius: 20px;
+    display: flex;
+    background: #f7fdf2;
+    right: 0;
+}
+
+.pinkButton {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 15px 55px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 20px;
+    background: none;
+}
+.pinkButton:hover {
+    top: 0px;
+    left: 16px;
+}
+.pinkButton:hover:after {
+    top: 0px;
+    left: -16px;
+}
+.pinkButton::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    right: 8px;
+    background-color: rgb(241, 16, 223);
+    border-radius: 20px;
+    z-index: -1;
+    transition: transform 0.15s ease-out 0s;
+}
+
+.pinkButton::after {
+    content: "";
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border-image: initial;
+    transition: transform 0.15s ease-out 0s;
+}
+
