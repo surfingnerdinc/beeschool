@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -34,20 +41,20 @@
             <img src="../../assets/menu.svg" class="menu-btn" id="open-menu">
         </header>
         <section>
-        <form class="loginform" method="POST" action="login.php">
+        <form class="loginform" method="POST" action="../php/zaloguj.php">
             <fieldset> 
                 <legend>Fill the gaps to log in!</legend>
                 <div>
-                    <label>Username or mail</label><br>
-                    <input type="text" id="username" name="username" placeholder="User name..." />
+                    <label>User mail</label><br>
+                    <input type="mail" id="mail" name="mail" placeholder="Your mail..." />
                 </div>
                 <div>
                     <label>Password</label><br>
                     <input type="password" id="userpassword" name="password" placeholder="Password..." />
                 </div>
                 <div>
-                    <div id="log_err_msg"></div><br>
                     <button type="submit" class="submit-btn">Click to log in</button>
+                    <div id="log_err_msg">
                 </div>
             </fieldset>
         </section>

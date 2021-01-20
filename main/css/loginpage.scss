@@ -18,15 +18,15 @@ html a {
 }
 
 .logo {
-    width: 325px;
-    height: 101px;
+    width: 300px;
+    height: 120px;
 }
 
 header {
     padding: 2em;
 }
 
-header .menu-btn {
+.menu-btn {
     float: right;
     cursor: pointer;
 }
@@ -181,7 +181,7 @@ nav li:nth-of-type(4) {
     font-family: 'Montserrat';
     font-size: 40px;
     font-weight: 500;
-    width: 40%;
+    width: 50%;
 }
  .loginform h3 {
      font-size: 28px;
@@ -206,6 +206,9 @@ nav li:nth-of-type(4) {
      font-weight: 100;
      border: none;
      background: none;
+     border-top: 1px solid black;
+     border-left: 1px solid black;
+     border-right: 1px solid black;
      border-bottom: 3px solid black;
      width: 60%;
      border-radius: 10px;
@@ -220,11 +223,11 @@ nav li:nth-of-type(4) {
 
  .loginform input:hover {
     outline: none;
-    box-shadow: 0 5px 10px -4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.4);
  }
 
 
- .submit-btn {
+.submit-btn {
     display: inline-block;
     font-size: 12px;
     font-weight: 500;
@@ -273,13 +276,14 @@ nav li:nth-of-type(4) {
 
 .submit-btn:hover {
     top: 0px;
-    left: 16px;
+    left: 18px;
 }
 
  .submit-btn:hover::after {
     top: 0px;
     left: -18px;
 }
+
 
 .hero-img {
     background-image: url("comp.svg");

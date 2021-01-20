@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+body,
+html a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 300px;
+    height: 120px;
+}
+
+.counter {
+    float: right;
+}
+
+.credsy {
+    margin-top: 15px;
+    float: right;
+}
