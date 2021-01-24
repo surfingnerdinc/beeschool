@@ -21,8 +21,8 @@ session_start();
                 <img src="../../assets/exit.svg" class="close-btn" id="close-menu">
                 <ul>
                     <li><a href="http://localhost/beeschool/index.html">Main page</a><span>Back to main page</span></li>
-                    <li><a href="http://localhost/beeschool/main/pages/register.html">Sign up</a><span>Create account to use app!</span></li>
-                    <li><a href="#">Contact</a><span>Any question? feel free to contact me!</span></li>
+                    <li><a href="http://localhost/beeschool/main/pages/register.php">Sign up</a><span>Create account to use app!</span></li>
+                    <li><a href="http://localhost/beeschool/main/pages/contact.php">Contact</a><span>Any question? feel free to contact me!</span></li>
                     <li><a href="http://localhost/beeschool/main/pages/aboutapp.html">About me</a><span>Few words about me!</span></li>
                 </ul>
                 <div class="bottom-menu">

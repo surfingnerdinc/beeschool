@@ -29,7 +29,7 @@ if($result = @$connection->query($sql)){
 
         unset($_SESSION['error']);
         $result ->free_result();
-        header('Location: ../../app/app.php');
+        header('Location: ../app/app.php');
 
 
     } else {
