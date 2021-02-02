@@ -177,11 +177,12 @@ nav li:nth-of-type(4) {
 
 .loginform {
     text-align: center;
-    margin: auto;
+    margin-left: 10%;
+    margin-top: 10px;
     font-family: 'Montserrat';
     font-size: 40px;
     font-weight: 500;
-    width: 50%;
+    width: 40%;
 }
  .loginform h3 {
      font-size: 28px;
@@ -288,6 +289,6 @@ nav li:nth-of-type(4) {
 .hero-img {
     background-image: url("comp.svg");
     background-repeat: no-repeat;
-    background-position: 700px -250px;
+    background-position: 1000px -250px;
     background-size: 1150px 1150px;
 }

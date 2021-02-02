@@ -23,9 +23,9 @@ html a {
 }
 
 .hero-img {
-    background-image: url("comp.svg");
+    background-image: url("../../css/comp.svg");
     background-repeat: no-repeat;
-    background-position: 700px -250px;
+    background-position: 1000px -250px;
     background-size: 1150px 1150px;
 }
 
@@ -96,7 +96,7 @@ header .menu-btn {
     position: absolute;
     width: 120%;
     height: 120%;
-    background-color: #13f800;
+    background-color: #17e204;
     border-radius: 20px;
     z-index: -1;
     transition: transform 0.15s ease-in-out 0s;
@@ -135,12 +135,14 @@ header .menu-btn {
 
 nav {
     position: absolute;
+    right: 0;
     background-color: #5f3ceb;
     padding: 2em;
-    width: 100%;
+    width: 40%;
     height: 100%;
     display: none;
     transform-origin: right;
+    letter-spacing: 4px;
 }
 
 .close-btn {
@@ -152,25 +154,16 @@ nav {
 }
 
 nav ul {
+  margin-top: 15%;
     list-style-type: none;
-    margin: 10% auto 0 auto;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
+    display: BLOCK;
     width: 100%;
 }
 nav a {
     color: white;
-    font-weight: bold;
-    font-size: 1.75em;
+    font-size: 2em;
 }
 
-nav span {
-    color: white;
-    display: block;
-    margin-top: 20px;
-    font-size: 0.75em;
-}
 nav li {
     opacity: 0;
     text-align: center;
@@ -202,17 +195,19 @@ nav li:nth-of-type(4) {
 
 .bottom-menu h5 {
     letter-spacing: 2px;
-    font-weight: 500;
-    font-size: 1em;
+    font-weight: 300;
+    font-size: 2em;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    display: block;
 }
 
 .social-media {
     color: white;
     text-align: center;
     letter-spacing: 15px;
+    display: block;
 }
 
 .show-menu {
@@ -232,13 +227,13 @@ nav li:nth-of-type(4) {
         transform: scaleX(0);
     }
     to {
-        transform: scaleX(1);
+        transform: scaleX(0.55);
     }
 }
 
 @keyframes slide-menu-back {
-    form {
-        transform: scale(1);
+    from {
+        transform: scaleX(0.55);
     }
     to {
         transform: scaleX(0);
